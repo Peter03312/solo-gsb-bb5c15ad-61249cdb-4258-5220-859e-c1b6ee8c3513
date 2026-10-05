@@ -1,0 +1,10 @@
+{
+  "container": {"material": "ptfe", "volume_ml": 2000, "temperature_c": 25},
+  "initial": [
+    {"reagent": "water", "volume_ml": 500, "concentration": 1.0}
+  ],
+  "steps": [
+    {"step": 1, "action": "add", "reagent": "hcl", "volume_ml": 50, "concentration": 0.37},
+    {"step": 2, "action": "add", "reagent": "sodium_hypochlorite", "volume_ml": 20, "concentration": 0.12}
+  ]
+}

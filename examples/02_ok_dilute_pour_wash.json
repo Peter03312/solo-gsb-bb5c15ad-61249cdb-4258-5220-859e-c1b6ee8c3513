@@ -1,0 +1,14 @@
+{
+  "container": {"material": "ptfe", "volume_ml": 2000, "temperature_c": 25},
+  "initial": [
+    {"reagent": "water", "volume_ml": 200, "concentration": 1.0}
+  ],
+  "steps": [
+    {"step": 1, "action": "add", "reagent": "ethanol", "volume_ml": 100, "concentration": 0.95, "label": "etoh_mix"},
+    {"step": 2, "action": "dilute", "volume_ml": 300},
+    {"step": 3, "action": "pour_out", "volume_ml": 200},
+    {"step": 4, "action": "transfer", "from_label": "etoh_mix", "volume_ml": 50},
+    {"step": 5, "action": "wash", "cycles": 2},
+    {"step": 6, "action": "add", "reagent": "hcl", "volume_ml": 20, "concentration": 0.37}
+  ]
+}

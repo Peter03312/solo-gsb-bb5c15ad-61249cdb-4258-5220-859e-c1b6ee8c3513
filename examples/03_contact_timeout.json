@@ -1,0 +1,14 @@
+{
+  "container": {"material": "ptfe", "volume_ml": 2000, "temperature_c": 25},
+  "initial": [
+    {"reagent": "water", "volume_ml": 200, "concentration": 1.0}
+  ],
+  "allowed_contact": [
+    {"rule_id": "strong_neutralization", "max_seconds": 60}
+  ],
+  "steps": [
+    {"step": 1, "action": "add", "reagent": "hcl", "volume_ml": 100, "concentration": 0.37},
+    {"step": 2, "action": "add", "reagent": "sodium_hydroxide", "volume_ml": 100, "concentration": 0.5, "duration_s": 30},
+    {"step": 3, "action": "dilute", "volume_ml": 100, "duration_s": 45}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "container": {"material": "glass", "volume_ml": 1000, "temperature_c": 25},
+  "initial": [
+    {"reagent": "water", "volume_ml": 300, "concentration": 1.0}
+  ],
+  "steps": [
+    {"step": 1, "action": "add", "reagent": "hydrofluoric_acid", "volume_ml": 10, "concentration": 0.49}
+  ]
+}

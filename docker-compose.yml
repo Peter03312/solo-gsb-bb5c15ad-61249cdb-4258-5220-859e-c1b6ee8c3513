@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    image: chem-mix-precheck:latest
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
